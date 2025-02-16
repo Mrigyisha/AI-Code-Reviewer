@@ -1,6 +1,5 @@
 import streamlit as st
 import google.generativeai as genai
-# from IPython.display import display,Markdown
 
 genai.configure(api_key="Api Key") #Use your own api key
 gemini = genai.GenerativeModel(model_name="models/gemini-2.0-flash-exp")
